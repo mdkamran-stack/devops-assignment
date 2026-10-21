@@ -1,0 +1,3 @@
+aws_region        = "us-west-2"
+state_bucket_name = "my_state001"
+lock_table_name   = "terraform-state-locks"

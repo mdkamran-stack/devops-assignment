@@ -1,0 +1,6 @@
+aws_region = "us-west-2"
+account_a_profile = "account-a"
+account_b_profile = "account-b"
+account_a_id = "111122223333"
+account_b_id = "444455556666"
+rolec_bucket_name = "replace-with-existing-bucket-name"
