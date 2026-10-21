@@ -10,7 +10,7 @@ Task 5: Fixes for IAM trust policy and overly permissive S3 access.
 ## Before Running  
 Configure AWS CLI profiles for the required accounts. Never commit credentials.  
 Run terraform fmt -recursive, terraform init, terraform validate, and terraform plan before applying.  
-Review the plan carefully. AWS resources may incur charges; destroy resources after completing the assignment.   
+Review the plan carefully. AWS resources may incur charges; destroy resources post validation.
 
 ## Additional Notes  
 Task 1: All five instances use one input variable. prod-db-01 has prevent_destroy in a separate resource block because lifecycle settings must be static.  
